@@ -11,13 +11,13 @@
 (function() {
   'use strict';
   var css = `
-		header, .article-side, .right-side-directory, .bgGrey, footer {
-			display: none !important;
-		}
-	    body {
-	    	padding: 30px 50px;
-	    }
-	}`;
+  header, .article-side, .right-side-directory, .bgGrey, footer {
+    display: none !important;
+  }
+  body {
+    padding: 30px 50px;
+  }
+  `;
 
   GM_addStyle(`@media print { ${css} }`);
 })();
